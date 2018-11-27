@@ -41,14 +41,15 @@ WAIT SECONDS=1
 TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_TxtBxMainPharmacy CONTENT=EVAL("[Math.floor((Math.random() * 40) + 30)]")
 TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_BtnSave
 PAUSE
-
-VERSION BUILD=1001 RECORDER=CR
 TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_ddlDiagnoses CONTENT=%4
 WAIT SECONDS=1
 TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_TxtBxERPharmacy CONTENT=EVAL("[Math.floor((Math.random() * 30) + 20)]")
 TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_TxtBxMainPharmacy CONTENT=EVAL("[Math.floor((Math.random() * 14) + 10)]")
 TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_BtnSave
 PAUSE
+
+
+
 VERSION BUILD=1001 RECORDER=CR
 TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_ddlSubParameter CONTENT=%2
 WAIT SECONDS=1
